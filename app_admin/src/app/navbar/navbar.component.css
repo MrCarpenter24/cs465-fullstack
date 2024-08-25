@@ -1,0 +1,24 @@
+/* Styles for the navbar component */
+
+/* Bold and increase the font size of the "Trips" link */
+.nav-link.active {
+    font-weight: bold;
+    font-size: 1.5em; /* Adjust the size as needed */
+}
+
+/* Style the Log In / Log Out buttons */
+.navbar-end .nav-item {
+    color: black;             /* Set text color to black */
+    text-decoration: none;    /* Remove underline */
+    padding: 0 10px;          /* Add padding to the left and right */
+}
+
+/* Ensure the text color remains black on hover */
+.navbar-end .nav-item:hover {
+    color: black;
+}
+
+/* Add padding inside the navbar to move it away from the screen edges */
+.navbar {
+    padding: 0 15px; /* Adjust padding to your preference */
+}
